@@ -1,0 +1,124 @@
+<!doctype html> 
+<html lang=en > 
+<head>
+<meta charset=UTF-8 > 
+<meta name=viewport  content="width=device-width, initial-scale=1"> 
+
+<link rel=stylesheet  href="css/github.min.css"> 
+<link rel=stylesheet  href="css/style.css"> 
+<link rel=stylesheet  href="css/basic.css"> 
+
+<link rel=icon  href="favicon.ico"> 
+<title>Penyingkat URL</title> 
+
+<meta property="og:title" content="Persingkat URL." />
+<meta name="description" content="Ini adalah alat gratis untuk mempersingkat URL atau mengurangi tautan panjang." />
+<meta property="og:description" content="Ini adalah alat gratis untuk mempersingkat URL atau mengurangi tautan panjang." />
+<meta property="og:site_name" content="Bung Ferry" />
+<meta property="og:type" content="website" />
+<meta content="https://fer.pages.dev/og.png" property="og:image">
+
+<style>
+.InputAddOn {
+  display: flex;
+  margin-bottom: 1.5em;
+}
+
+.InputAddOn-field {
+  flex: 1;
+}
+.InputAddOn-field:not(:first-child) {
+  border-left: 0;
+}
+.InputAddOn-field:not(:last-child) {
+  border-right: 0;
+}
+
+.InputAddOn-item {
+  background-color: rgba(147, 128, 108, 0.1);
+  color: #666666;
+  font: inherit;
+  font-weight: normal;
+}
+
+.InputAddOn-field,
+.InputAddOn-item {
+  border: 1px solid rgba(147, 128, 108, 0.25);
+  padding: 0.5em 0.75em;
+}
+.InputAddOn-field:first-child,
+.InputAddOn-item:first-child {
+  border-radius: 2px 0 0 2px;
+}
+.InputAddOn-field:last-child,
+.InputAddOn-item:last-child {
+  border-radius: 0 2px 2px 0;
+}
+
+#output > span.error {
+	color: #ff5b5b;
+}
+</style>
+</head>
+
+<body>
+<header> 
+<div class=blog-name >
+<a href=".">BUNG FERRY</a>
+</div> 
+
+<nav> 
+<ul> 
+<li><a href=".">Home</a> <li>
+<a href="shorten-url">Shorten URL</a> <li>
+<a href="twibbon">Twibbon</a> <li>
+<a href="ig-downloader">IG Downloader</a> 
+</ul> 
+<img src="hamburger.svg" id=menu-icon > 
+</nav> 
+</header> 
+
+<div class=franklin-content >
+<h1 id=working_with_tags >
+<a href="#" class=header-anchor >Penyingkat URL</a>
+</h1> 
+
+<p>Ini adalah alat gratis untuk mempersingkat URL atau mengurangi tautan panjang.</p>
+<p>Gunakan Penyingkat URL kami untuk membuat tautan yang dipersingkat sehingga mudah diingat.</p>
+<p>Tempel URL panjang yang akan dipersingkat.</p>
+<p>
+<!-- appending -->
+<div class="InputAddOn">
+  <input type="url" id="url" placeholder="Masukkan URL untuk mempersingkat termasuk. http://" value="https://www.instagram.com/p/CefbMFiv3WK/?utm_source=ig_web_copy_link" class="InputAddOn-field">
+  <button id="action" class="InputAddOn-item">Shorten</button>
+</div>
+</p> 
+
+<p id="output"></p>
+
+<h2 id=customising_tag_pages >
+<a href="#" class=header-anchor >Penyingkat URL sederhana dan cepat!</a>
+</h2>
+
+<p>Ini memungkinkan untuk mengurangi tautan panjang dari Instagram, Facebook, YouTube, Twitter, Linked In dan situs teratas di Internet, cukup tempel URL panjang dan klik tombol Shorten.</p>
+<p>Di layar berikutnya, salin otomatis URL yang dipersingkat dan bagikan di situs web, obrolan, dan email.</p>
+
+<h2 id=customising_tag_pages >
+<a href="#" class=header-anchor >Sosial</a>
+</h2>
+
+<p>Hubungi kami:</p>
+
+<ol>
+<li><p><a href="https://www.facebook.com/bungferry.wa">Facebook</a></p>
+<li><p><a href="https://www.instagram.com/bungferry__">Instagram</a></p>
+<li><p><a href="#">Twitter</a></p>
+</ol>
+
+<div class=page-foot >
+    Made with ❤️ by <a href=".">Ferry Ayunda</a>
+</div>
+</div>
+<script src="js/shorten.js"></script>
+</body>
+</html>

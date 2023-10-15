@@ -1,0 +1,158 @@
+/* CSS Document */
+
+body,h1{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: #2b2d38;
+		
+    text-align: center;
+
+
+	background: url(Media/bg2.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	
+
+}
+.sayfa{
+	width: 960px;
+	margin: 5px auto;
+}
+
+
+
+
+
+#logo{
+	float: center;
+	color:whitesmoke;
+	font-size: 23pt;
+	font-family: Verdana;
+	font-weight: bolder;
+	margin-top: 10px;
+	margin-right: 40px;
+	margin-left: 10px;
+	background-color: #1da328;
+	border-radius: 15px;
+	
+}
+ 
+#menu{
+	float: left;
+	list-style: none;
+}
+#menu li{
+	float: left;
+}
+#menu li a{
+	text-decoration: none;
+	color: rgb(56, 42, 42);
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 14pt;
+}
+#menu li a:hover{
+	background-color: #2f3944;
+	border-radius: 10px;
+}
+ 
+#icerik{
+	background-color: rgb(37, 50, 61);
+	border-radius: 10px;
+ 
+}
+#galeri img{
+	height: 300px;
+	width: 940px;
+	margin: 10px 10px;
+}
+ 
+.yazi{
+	width: 300px;
+	float: left;
+	background-color: #1b61c2;
+	margin-left: 15px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+}
+.yazi h1{
+	color: whitesmoke;
+	margin-left: 10px;
+}
+ 
+.yazi p{
+	text-indent: 20px;
+	text-align: justify;
+	margin: 10px;
+}
+.temizle{
+	clear: both;
+}
+
+.button a{
+    display: inline-block;
+    padding: 10px 15px;
+    color: #fdc609;
+    background-color: #232323;
+    text-decoration: none;
+    text-decoration: none;
+	color: white;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 14pt;
+    border-radius: 10px;
+
+    
+}
+
+.button a:hover{
+	background-color: #2f3944;
+	border-radius: 10px;
+}
+ 
+.Tani{
+    font-size: 14pt;
+	width: 600px;
+	float: center;
+	background-color: #ff0000;
+	margin-left: 200px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+
+}
+
+.Bilgi{
+    font-size: 18pt;
+    text-align: center;
+    color: #00f7ff;
+	
+    
+
+
+
+}
+
+.Bilgi2{
+    font-size: 22pt;
+    color: #ff0000;
+
+}
+
+.Bilgi2 a{
+    color: #1da328;
+}
+
+
+#icerik2{
+	background-color: rgb(21, 72, 117);
+	border-radius: 15px;
+}
+
+

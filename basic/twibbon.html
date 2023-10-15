@@ -1,0 +1,82 @@
+<!doctype html> 
+<html lang=en > 
+<head>
+<meta charset=UTF-8 > 
+<meta name=viewport  content="width=device-width, initial-scale=1"> 
+
+<link rel=stylesheet  href="css/github.min.css"> 
+<link rel=stylesheet  href="css/style.css"> 
+<link rel=stylesheet  href="css/basic.css"> 
+
+<link rel=icon  href="favicon.ico"> 
+<title>Twibbon Generator</title> 
+
+<meta property="og:title" content="Twibbon Generator." />
+<meta name="description" content="Ini adalah situs web tempat Anda dapat menambahkan foto ke dalam bingkai." />
+<meta property="og:description" content="Ini adalah situs web tempat Anda dapat menambahkan foto ke dalam bingkai." />
+<meta property="og:site_name" content="Bung Ferry" />
+<meta property="og:type" content="website" />
+<meta content="https://fer.pages.dev/og.png" property="og:image">
+
+<script type="text/javascript" src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+</head>
+
+<body>
+<header> 
+<div class=blog-name >
+<a href=".">BUNG FERRY</a>
+</div> 
+
+<nav> 
+<ul> 
+<li><a href=".">Home</a> <li>
+<a href="shorten-url">Shorten URL</a> <li>
+<a href="twibbon">Twibbon</a> <li>
+<a href="ig-downloader">IG Downloader</a> 
+</ul> 
+<img src="hamburger.svg" id=menu-icon > 
+</nav> 
+</header> 
+
+<div class=franklin-content >
+<h1 id=working_with_tags >
+<a href="#" class=header-anchor >Twibbon Generator</a>
+</h1> 
+
+<p>Ini adalah situs web tempat Anda dapat menambahkan foto ke dalam bingkai.</p>
+<p>Upload gambar yang ingin di jadikan twibbon lalu klik 'Buat twibbon!'.</p>
+<p>Klik kanan dan save untuk PC atau sentuh dan tahan lalu download image untuk smartphone jika link download mati.</p>
+
+    <p>
+    <img id="preview" src="img/placeholder.png"/>
+    <img id="twibbon" src="img/twibbon.png" style="display: none"/>
+    <canvas id="twibbonbaker" style="width: 300px; height: 300px; display: none"></canvas>
+    </p>
+    <p>Pastikan gambar yang di upload memiliki ukuran.</p>
+    <p><input id="fileInput" type="file" /></p>
+    
+    <p><button id="dpwload" onclick="drawImage()">Buat twibbon!</button>
+    <a href="#" id="dpwload2" download="download.png" style="display: none">Download twibbon!</a>
+    <button id="cancel" onclick="location.reload()">Cancel</button></p>
+
+<h2 id=customising_tag_pages >
+<a href="#" class=header-anchor >Sosial</a>
+</h2>
+
+<p>Hubungi kami:</p>
+
+<ol>
+<li><p><a href="https://www.facebook.com/bungferry.wa">Facebook</a></p>
+<li><p><a href="https://www.instagram.com/bungferry__">Instagram</a></p>
+<li><p><a href="#">Twitter</a></p>
+</ol>
+
+
+<div class=page-foot >
+    Made with ❤️ by <a href=".">Ferry Ayunda</a>
+</div>
+</div>
+
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
